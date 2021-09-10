@@ -1,0 +1,25 @@
+.chat-user-message {
+    //background-color: rgb(93, 94, 93);
+    height: 20%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    
+}
+
+.user-avatar {
+   padding-left: 1%;
+   height: 80%
+}
+
+.data-wrapper {
+    padding-left: 1%;
+}
+
+.user-data-message {
+ font-size: 50%; ;
+}
+
+.user-message {
+    font-size: 80%;
+}

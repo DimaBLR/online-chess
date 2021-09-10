@@ -1,0 +1,149 @@
+.lobby-field {
+  background-color: rgba($color: #000000, $alpha: 0.8);
+  width: 95%;
+  height: 90%;
+  border: 2px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+}
+
+.lobby-name,
+.server-users {
+  background-color: black;
+  padding: 0.3% 1%;
+  position: absolute;
+  margin-top: -1.3%;
+}
+
+.lobby-name {
+  margin-left: 47.8%;
+  border-top: 2px solid white;
+  border-radius: 50%;
+}
+
+.server-users {
+  text-transform: uppercase;
+  font-size: 1vw;
+  margin-left: 7%;
+  border-radius: 30%;
+  padding: 0.1% 0.2%;
+  margin-top: -0.9%;
+  border: 2px solid white;
+}
+
+.server-channels {
+  background-color: rgba($color: #f3e7e7, $alpha: 0.8);
+  width: 10%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.game-channel {
+  border: 4px solid rgb(70, 67, 67);
+  border-radius: 3px;
+  background-color: rgb(97, 172, 172);
+  text-align: center;
+  margin-top: 3%;
+  cursor: pointer;
+
+}
+
+.channel-users {
+  background-color: rgb(77 170 165 / 80%);
+  width: 10%;
+  height: 100%;
+  display: none;
+}
+
+.lobby-field h2 {
+  font-size: 1.2vw;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10%;
+}
+
+.lobby-field h3 {
+  font-size: 1vw;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10%;
+}
+
+.lobby-wrapper {
+  width: 90%;
+  height: 100%;
+}
+
+.chat-field {
+  background: rgb(77 170 165 / 60%);
+  width: 100%;
+  height: 30%;
+  border-top: 2px solid white;
+}
+
+.game-field { 
+  padding: 2%;
+  width: 100%;
+  height: 70%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+ .game-field .chess-board {
+   height: 100%;
+  }  
+
+.chat-messages {
+  width: 100%;
+  height: 85%;
+  overflow-y: scroll;
+  //scroll-behavior: auto;
+}
+
+.chat-send-message {
+  background: rgb(77 170 165 / 60%);
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.message-input {
+  font-size: 80%;
+  width: 80%;
+  height: 100%;
+}
+
+.message-submit {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  cursor: pointer;
+}
+
+
+.btn-add-channel {
+  border: 2px solid green;
+  border-radius: 10px;
+  font-size: 80%;
+  width:70%;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: cadetblue;
+}
+
+.chat-name {
+  margin-left: 35.8%;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: black;
+  padding: 0.1% 0.7%;
+  position: absolute;
+  margin-top: -1.1%;
+}

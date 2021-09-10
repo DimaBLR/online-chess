@@ -1,0 +1,49 @@
+.header {
+  height: 10vh;
+  border-bottom: 2px solid white;
+  box-shadow: 1px 0px 50px 0px rgba(247, 247, 243, 0.8);
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(55, 59, 59); 
+  background: url('../../assets/img/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;    
+  z-index: 199;
+  filter: drop-shadow(0px 1px 10px rgba(18, 87, 91, 0.25));  
+}
+
+.header a {
+  color: white; 
+  text-decoration: none;
+  border: 2px solid white;
+  white-space: nowrap;
+  padding: 0.5% 1% 0.5% 1%;
+  font-size: 1.3vw;
+  font-weight: 800;
+  border-radius: 50%;
+  //background: url('../../assets/img/bg3.png');
+  //background-repeat: no-repeat;
+  //background-size: cover;
+  background-color: rgb(36, 33, 33);
+  
+}
+
+.header a:hover {
+  color:rgba(77, 170, 165, 0.8);
+  box-shadow: 0 0 5px 10px rgba(77, 170, 165, 0.8);  
+  -webkit-text-stroke-width: 0.3px;
+   -webkit-text-stroke-color:rgba(77, 170, 165, 0.8);
+}
+
+.link-active {
+  box-shadow: 0 0 5px 10px rgb(185, 183, 183);   
+  -webkit-text-stroke-width: 0.3px;
+   -webkit-text-stroke-color:rgb(243, 236, 236)
+}
+
+.site-logo {
+  height: 80%;
+}
